@@ -1,8 +1,8 @@
 class Xcforge < Formula
   desc "MCP server and CLI for iOS development"
   homepage "https://github.com/justinthevoid/xcforge"
-  url "https://github.com/justinthevoid/xcforge/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "91f242be9dba217d7323be2541977abc889eaf46c420aba3a2c6f156686a9944"
+  url "https://github.com/justinthevoid/xcforge/archive/refs/tags/v1.1.2.tar.gz"
+  sha256 "54a5277a05cb20277eb4e50d542b9343ccdf47831e126a95248211960cc33c3b"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
@@ -10,7 +10,7 @@ class Xcforge < Formula
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
-    bin.install ".build/release/xcforge"
+    bin.install ".build/release/XCForgeCLI" => "xcforge"
   end
 
   test do
