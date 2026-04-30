@@ -1,8 +1,8 @@
 class Xcforge < Formula
   desc "MCP server and CLI for iOS development"
   homepage "https://github.com/justinthevoid/xcforge"
-  url "https://github.com/justinthevoid/xcforge/archive/refs/tags/v1.3.2.tar.gz"
-  sha256 "f92857c24cec4428bae6ce7f230a0cb594868c6b006cbdacc3a7d12b4b393173"
+  url "https://github.com/justinthevoid/xcforge/archive/refs/tags/v1.3.3.tar.gz"
+  sha256 "14393fbd17c9b63657b28178e64b65b609452a213d877ea5eee57bf7d93e2fc1"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
