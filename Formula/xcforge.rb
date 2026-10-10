@@ -1,13 +1,13 @@
 class Xcforge < Formula
   desc "MCP server and CLI for iOS development"
   homepage "https://github.com/justinthevoid/xcforge"
-  version "1.7.0"
+  version "1.7.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/justinthevoid/xcforge/releases/download/v1.7.0/xcforge-v1.7.0-macos-arm64.tar.gz"
-      sha256 "91cd82e3767568abed0e4ad18c91c16168488d21002e1c78e8d7ff8b7a277e0d"
+      url "https://github.com/justinthevoid/xcforge/releases/download/v1.7.1/xcforge-v1.7.1-macos-arm64.tar.gz"
+      sha256 "2a18d75cf03280585b5e6cb79063cd0d461e52601f348c6837f33c7fc98b5ddf"
     end
   end
 
