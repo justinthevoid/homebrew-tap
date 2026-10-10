@@ -7,7 +7,7 @@ class Xcforge < Formula
   on_macos do
     on_arm do
       url "https://github.com/justinthevoid/xcforge/releases/download/v1.7.0/xcforge-v1.7.0-macos-arm64.tar.gz"
-      sha256 "41bc2a36f7d9da7b5657ba4cdbfc0669198a58c67306148b6c87d61be1af2bda"
+      sha256 "91cd82e3767568abed0e4ad18c91c16168488d21002e1c78e8d7ff8b7a277e0d"
     end
   end
 
